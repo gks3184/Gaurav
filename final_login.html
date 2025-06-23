@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            font-size: 50px;
+            width: 600px;
+            height: 600px;
+            padding: 10px;
+            border-radius: 15px;
+            margin: auto;
+            /*  i am adding this background colour to make colour transition */
+            background: linear-gradient(to top right, rgb(26, 26, 192),rgb(130, 121, 176));
+
+        }
+        h1 {
+            text-align: center;
+            color: white;
+            width: 100%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        p {
+            color:white;
+            display: flex;
+            flex-wrap: wrap;
+           font-size: 30px;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        button {
+            display: flex;
+            flex-wrap: nowrap;
+            /* width: 100px; */
+            box-sizing: border-box;
+            margin: 20px auto;
+            /* padding: 10px 20px; */
+            border-radius: 5px;
+            background-color: blue;
+            color: white;
+            border: none;
+            font-size: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            align-items: center;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 >
+            Login
+        </h1>
+        <p style="size: 30px;">Username<br>
+        <input style="border: none;border-radius: 5px;width:100%; padding: 10px;" type="text"></p>
+        <p style="size: 30px;">password<br>
+        <input style="border: none;border-radius: 5px; width: 100%; padding: 10px;" type="text>" ></p>
+        <button>Login</button>
+    </div>
+    
+</body>
+</html>
